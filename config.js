@@ -3,5 +3,5 @@ dotenv.config();
 
 module.exports = {
   PORT: process.env.PORT,
-  MONGO_CONNECTION_STRING: process.env.MONGO_CONNECTION_STRING,
+  MONGO_CONNECTION_STRING: "mongodb+srv://trividha:HqBJzgxdxnxsq7LY@cluster0.szwa2.mongodb.net/oneshot_college?retryWrites=true&w=majority",
 };
